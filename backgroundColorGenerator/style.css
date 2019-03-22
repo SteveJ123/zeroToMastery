@@ -4,8 +4,7 @@ h1{
   margin-top: 20px;
 }
 
-.colorContainer{
-  background-color: blue;
+.colorContainer{  
   width: 104px;
   margin: auto;
   margin-top: 20px;
@@ -14,6 +13,12 @@ h1{
 
 h2{
   width: 320px;  
+  margin: auto;
+  margin-top: 20px;
+}
+
+h3{
+  width: 420px;
   margin: auto;
   margin-top: 20px;
 }
