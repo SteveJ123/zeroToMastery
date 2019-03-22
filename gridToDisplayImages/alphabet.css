@@ -1,0 +1,43 @@
+h3{
+	text-align: center;
+	text-decoration: inherit;
+	color: rgb(244, 66, 200);
+}
+
+body{
+  margin: auto 0;
+  background-color: blue;
+}
+
+.container{
+	display: grid;
+	grid-gap: 20px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr
+}
+.grid-wrapper{
+	display: grid;
+	grid-gap: 20px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr
+}
+
+
+.box{
+     background-color: gold;
+     padding: 50px;                   
+    margin: 5px;
+    width: 100px;
+}
+.box >img{
+   	width: 100%
+}
+
+ .zone{
+   cursor:pointer;
+    color:#FFF;
+    font-size: 2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
