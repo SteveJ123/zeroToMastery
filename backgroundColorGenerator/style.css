@@ -1,0 +1,19 @@
+h1{
+  width: 320px;  
+  margin: auto;
+  margin-top: 20px;
+}
+
+.colorContainer{
+  background-color: blue;
+  width: 104px;
+  margin: auto;
+  margin-top: 20px;
+  /* margin-left: 120px; */
+}
+
+h2{
+  width: 320px;  
+  margin: auto;
+  margin-top: 20px;
+}
