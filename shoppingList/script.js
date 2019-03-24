@@ -32,14 +32,14 @@ function deleteItem(e) {
 function createListElement() {
   var li = document.createElement("li");
   var deleteButton = document.createElement("button");
-  deleteButton.setAttribute("onclick", deleteItem);
+  deleteButton.setAttribute("onclick", deleteItem);     // add eventlistener to button
   // deleteButton.onclick = addStrike;
   deleteButton.appendChild(document.createTextNode("X"));
   li.appendChild(document.createTextNode(input.value));
   ul.appendChild(li);
   li.appendChild(deleteButton);
   li.addEventListener("click", addStrike, false);
-  deleteButton.addEventListener("click", deleteItem, false);
+  deleteButton.addEventListener("click", deleteItem, false);   // add eventlistener to li
   input.value = "";
 }
 
